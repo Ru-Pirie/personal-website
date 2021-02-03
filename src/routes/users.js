@@ -3,7 +3,7 @@ const router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-	res.sendFile(`${__dirname}/../views/html/errors/404.html`);
+	res.sendFile('./views/html/errors/404.html', { root: './src' });
 });
 
 module.exports = router;
