@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@800&display=swap');
 body {
-    background-image: url("../images/rocket.jpg");
+    background-image: url("../images/main.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,5 +11,7 @@ body {
 * {
     padding: 0px;
     margin: 0px;
-    font-family: Open Sans;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    color: black;
 }
