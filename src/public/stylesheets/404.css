@@ -8,30 +8,8 @@ body {
     color: #ffffff;
 }
 
-.dot {
-    width: auto;width:50%;
-    height: auto;height:50%;
-    background: #006097;
-    position: absolute;
-    border-radius: 0 0 500px 0;
-    -moz-border-radius: 0 0 500px 0;
-    -webkit-border-radius: 0 0 auto;width:50% 0;
- }
-
 * {
     padding: 0px;
     margin: 0px;
     font-family: Open Sans;
-}
-
-h1 {
-    width: auto;
-    height: auto;
-    text-align: center;
-}
-
-a {
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
 }
