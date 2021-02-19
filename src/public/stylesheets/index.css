@@ -34,11 +34,6 @@ li a:hover:not(.active) {
 }
 
 body {
-    background-image: url("../images/main.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     color: #ffffff;
 }
 

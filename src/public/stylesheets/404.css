@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@800&display=swap');
+
 body {
     background-image: url("../images/main.jpg");
     background-attachment: fixed;
@@ -13,5 +14,36 @@ body {
     margin: 0px;
     font-family: 'JetBrains Mono';
     font-style: normal;
-    color: black;
+}
+
+.rectangle {
+    height: 50px;
+    width: 75px;
+    color:white;
+    background-color: rgb(77,77,77);
+    border-radius:7px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position:absolute;
+    top:100%;
+    left:47%;
+}
+
+.center {
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    color: #0f0f0f;
+    margin-top: -150px;
+    margin-left: -420px;
+}
+
+h1 {
+    font-size: 400%;
+}
+
+p{
+    font-size: 120%;
 }
