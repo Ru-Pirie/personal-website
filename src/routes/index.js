@@ -63,6 +63,7 @@ email().catch(console.error);
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
+	if (!req.secure) res.redirect("https://" + req.headers.host + req.url)
 	res.sendFile('./views/html/home/index.html', { root: './src' });
 });
 
