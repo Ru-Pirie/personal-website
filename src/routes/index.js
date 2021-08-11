@@ -27,8 +27,8 @@ async function email(name, address, topic, message) {
 		secure: true,
 		// true for 465, false for other ports
 		auth: {
-			user: 'rubens.pirie@gmail.com',
-			pass: 'nohhvromugrvlzaf',
+			user: 'redacted',
+			pass: 'redacted',
 		},
 	});
 
